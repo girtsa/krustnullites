@@ -1,2 +1,2 @@
 # krustnullites
-
+Te ir izdzēsts?
