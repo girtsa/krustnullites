@@ -1,0 +1,16 @@
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\bin\Debug\net5.0\NoslDar.exe
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\bin\Debug\net5.0\NoslDar.deps.json
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\bin\Debug\net5.0\NoslDar.runtimeconfig.json
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\bin\Debug\net5.0\NoslDar.runtimeconfig.dev.json
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\bin\Debug\net5.0\NoslDar.dll
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\bin\Debug\net5.0\ref\NoslDar.dll
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\bin\Debug\net5.0\NoslDar.pdb
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\NoslDar.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\NoslDar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\NoslDar.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\NoslDar.AssemblyInfo.cs
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\NoslDar.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\NoslDar.dll
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\ref\NoslDar.dll
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\NoslDar.pdb
+C:\Users\HP\Desktop\NoslDarbs\VisualS\NoslDar\NoslDar\obj\Debug\net5.0\NoslDar.genruntimeconfig.cache
