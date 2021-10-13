@@ -23,7 +23,7 @@ Divi cilvēki pie viena datora. Pirmais ir piem krustiņš, bet otrais ir nullī
 
 Starp diviem spēlētājiem. Mums ir jāiemāca tapazīt, kad ir uzvara.
 
-Console.WriteLine("      |    |  ");
+            Console.WriteLine("      |    |  ");
             Console.WriteLine("  --------------");
             Console.WriteLine("      |    |  ");
             Console.WriteLine("  --------------");
