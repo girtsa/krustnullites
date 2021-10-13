@@ -14,4 +14,4 @@ Būtu vajadzīgi objekti, kuri satur datus. Tos tad kaut kā jāattēlo.
 
 Kā likt ieva
 
-
+Starp diviem spēlētājiem. Mums ir jāiemāca tapazīt, kad ir uzvara.
