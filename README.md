@@ -7,11 +7,13 @@ edvarts te
 Jāizdomā, kā attēlot laukumu 
 Būtu vajadzīgi objekti, kuri satur datus. Tos tad kaut kā jāattēlo. 
 
+Laukums izskatītos apmēram šādi:
 
 1|2|3
 4|5|6
 7|8|9
-                          
+  
+  1-9 tās ir vietas, kur lietotāji 
                              
 
 Kā likt ieva
