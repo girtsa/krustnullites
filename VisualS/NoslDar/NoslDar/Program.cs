@@ -7,6 +7,8 @@ namespace NoslDar
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            //Edvarts testē
         }
     }
 }
