@@ -8,7 +8,9 @@ Jāizdomā, kā attēlot laukumu
 Būtu vajadzīgi objekti, kuri satur datus. Tos tad kaut kā jāattēlo. 
 
 
-| | |
+1|2|3
+4|5|6
+7|8|9
                              | | |
                              
 
