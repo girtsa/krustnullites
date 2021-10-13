@@ -13,10 +13,11 @@ Laukums izskatītos apmēram šādi:
 4|5|6
 7|8|9
   
-  1-9 tās ir vietas, kur lietotāji 
+  1-9 tās ir vietas, kur spēlētāji ieliek savu 0 vai x. 
+  Piem., pirmais spēlētājs liek iksus. Viņš, piemēram, sāk spēli un grib ielikt laukuma pašā vidū X. Vidū ir cipars 5. Tāpēc viņš uz klaviatūras nospiež 5. Un to, vai viņš grib ielikt iksu, nevis nulli, sistēma viņam paprasa. 
                              
 
-Kā likt ieva
+
 Divi cilvēki pie viena datora. Pirmais ir piem krustiņš, bet otrais ir nullīte. Tiklīdz pirmais ir nospiedis uz klaviatūras savu simbolu, tā uzreiz ir otram iespēja vadīt savu simbolu. 
 
 
