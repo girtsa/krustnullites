@@ -27,12 +27,16 @@ namespace NoslDar
 
 
 
-            Console.WriteLine(one + "  | " + two + "   | " + three + ");
-            Console.WriteLine("  --------------");
-            Console.WriteLine(four + "  | " + five + "   | " + six + ");
-            Console.WriteLine("  --------------");
-            Console.WriteLine(seven + "  | " + eight + "   | " + nine + ");
-
+            Console.WriteLine(" ");
+            Console.WriteLine("       Tic Tac Toe ");
+            Console.WriteLine(" ");
+            Console.WriteLine("        |      | ");
+            Console.WriteLine("        |      | ");
+            Console.WriteLine("   -----|------|-----");
+            Console.WriteLine("        |      | ");
+            Console.WriteLine("   -----|------|-----");
+            Console.WriteLine("        |      | ");
+            Console.WriteLine("        |      | ");
             //Edvarts testē
         }
     }
