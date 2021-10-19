@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\VisualS",
+    "\\VisualS\\NoslDar",
+    "\\VisualS\\NoslDar\\NoslDar"
   ],
-  "SelectedNode": "\\NoslDar.sln",
+  "SelectedNode": "\\VisualS\\NoslDar\\NoslDar.sln",
   "PreviewInSolutionExplorer": false
 }
