@@ -11,7 +11,6 @@ namespace NoslDar
         // citā klasē - spēles loģika
 
 
-
         {
             int one = 1;
             int two = 2;
