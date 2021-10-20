@@ -12,3 +12,17 @@ C:\Users\HP\Desktop\3\1910\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.pdb
 C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
 C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
 C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.genruntimeconfig.cache
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.exe
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.deps.json
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.json
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.dev.json
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.dll
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.pdb
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.AssemblyReference.cache
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfoInputs.cache
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfo.cs
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.CoreCompileInputs.cache
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
+C:\Users\Dina Kristiņa\Desktop\C#\2test\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.genruntimeconfig.cache
