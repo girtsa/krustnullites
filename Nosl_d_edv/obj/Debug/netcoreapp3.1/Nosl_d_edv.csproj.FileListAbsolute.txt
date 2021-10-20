@@ -1,14 +1,14 @@
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.exe
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.deps.json
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.json
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.dev.json
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.dll
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.pdb
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.AssemblyReference.cache
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfoInputs.cache
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfo.cs
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.CoreCompileInputs.cache
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
-C:\Users\Lietotajs\Desktop\Edvarts GitHub\Nosl_d_edv\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.genruntimeconfig.cache
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfo.cs
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.exe
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.deps.json
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.json
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.dev.json
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.dll
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.pdb
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
+C:\Users\HP\Desktop\3\1910\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.genruntimeconfig.cache
