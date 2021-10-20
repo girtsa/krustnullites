@@ -152,10 +152,6 @@ namespace NoslDar
 
 
 
-
-
-
-
             Console.WriteLine(one + "  | " + two + "   | " + three);
             Console.WriteLine("  --------------");
             Console.WriteLine(four + "  | " + five + "   | " + six);
@@ -164,7 +160,35 @@ namespace NoslDar
 
 
 
+            string input_x3 = Console.ReadLine();
+            Console.Clear();
 
+            if (input_x3 == one)
+            { one = "x"; };
+            if (input_x3 == two)
+            { two = "x"; };
+            if (input_x3 == three)
+            { three = "x"; };
+            if (input_x3 == four)
+            { four = "x"; };
+            if (input_x3 == five)
+            { five = "x"; };
+            if (input_x3 == six)
+            { six = "x"; };
+            if (input_x3 == seven)
+            { seven = "x"; };
+            if (input_x3 == eight)
+            { eight = "x"; };
+            if (input_x3 == nine)
+            { nine = "x"; };
+
+
+
+            if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x"))
+                //vēl vertikālie gadījumi un pa diagonāli
+            { Console.WriteLine("x = winner! "); };
+                
+  
 
 
 
