@@ -32,25 +32,25 @@ namespace NoslDar
             
 
 
-            string input1 = Console.ReadLine();
+            string input_x1 = Console.ReadLine();
             Console.Clear();
-            if (input1 ==  one)
+            if (input_x1 ==  one)
             { one = "x"; };
-            if (input1 == two)
+            if (input_x1 == two)
             { two = "x"; };
-            if (input1 == three)
+            if (input_x1 == three)
             { three = "x"; };
-            if (input1 == four)
+            if (input_x1 == four)
             { four = "x"; };
-            if (input1 == five)
+            if (input_x1 == five)
             { five = "x"; };
-            if (input1 == six)
+            if (input_x1 == six)
             { six = "x"; };
-            if (input1 == seven)
+            if (input_x1 == seven)
             { seven = "x"; };
-            if (input1 == eight)
+            if (input_x1 == eight)
             { eight = "x"; };
-            if (input1 == nine)
+            if (input_x1 == nine)
             { nine = "x"; };
 
 
@@ -61,32 +61,99 @@ namespace NoslDar
             Console.WriteLine("  --------------");
             Console.WriteLine(seven + "  | " + eight + "   | " + nine);
             
-           string input2 = Console.ReadLine();
+           string input_01 = Console.ReadLine();
             Console.Clear();
 
-            if (input2 == one)
+            if (input_01 == one)
             { one = "0"; };
-            if (input2 == two)
+            if (input_01 == two)
             { two = "0"; };
-            if (input2 == three)
+            if (input_01 == three)
             { three = "0"; };
-            if (input2 == four)
+            if (input_01 == four)
             { four = "0"; };
-            if (input2 == five)
+            if (input_01 == five)
             { five = "0"; };
-            if (input2 == six)
+            if (input_01 == six)
             { six = "0"; };
-            if (input2 == seven)
+            if (input_01 == seven)
             { seven = "0"; };
-            if (input2 == eight)
+            if (input_01 == eight)
             { eight = "0"; };
-            if (input2 == nine)
+            if (input_01 == nine)
             { nine = "0"; };
+
+            Console.WriteLine(one + "  | " + two + "   | " + three);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(four + "  | " + five + "   | " + six);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
+
+
+            //string[] Laukums = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+            //while 
+            // if ()
+
+
+            string input_x2 = Console.ReadLine();
+            Console.Clear();
+
+            if (input_x2 == one)
+            { one = "x"; };
+            if (input_x2 == two)
+            { two = "x"; };
+            if (input_x2 == three)
+            { three = "x"; };
+            if (input_x2 == four)
+            { four = "x"; };
+            if (input_x2 == five)
+            { five = "x"; };
+            if (input_x2 == six)
+            { six = "x"; };
+            if (input_x2 == seven)
+            { seven = "x"; };
+            if (input_x2 == eight)
+            { eight = "x"; };
+            if (input_x2 == nine)
+            { nine = "x"; };
+
+            Console.WriteLine(one + "  | " + two + "   | " + three);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(four + "  | " + five + "   | " + six);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
 
 
             // while   pēc katra gājiena jau pārbauda vai beidzas spēle  (vai ir 3 rindā) 
             //Ja iestājas uzvara, iet ārā no cikla un attēlo, ka beigas.
             // vajag vismaz vienu unit testu. Piem., lietotājs ievada, kaut ko, kas nav 1-9. 
+
+            string input_02 = Console.ReadLine();
+            Console.Clear();
+
+            if (input_02 == one)
+            { one = "0"; };
+            if (input_02 == two)
+            { two = "0"; };
+            if (input_02 == three)
+            { three = "0"; };
+            if (input_02 == four)
+            { four = "0"; };
+            if (input_02 == five)
+            { five = "0"; };
+            if (input_02 == six)
+            { six = "0"; };
+            if (input_02 == seven)
+            { seven = "0"; };
+            if (input_02 == eight)
+            { eight = "0"; };
+            if (input_02 == nine)
+            { nine = "0"; };
+
+
+
+
+
 
 
             Console.WriteLine(one + "  | " + two + "   | " + three);
