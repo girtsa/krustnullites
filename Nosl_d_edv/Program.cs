@@ -19,9 +19,7 @@ namespace NoslDar
             string seven = "7";
             string eight = "8";
             string nine = "9";
-            string player1 = "X";
-            string player2 = "0";
-
+           
 
             Console.WriteLine("Noteikumi u.c.");
             Console.WriteLine(one + "  | " + two + "   | " + three);
@@ -29,12 +27,12 @@ namespace NoslDar
             Console.WriteLine(four + "  | " + five + "   | " + six);
             Console.WriteLine("  --------------");
             Console.WriteLine(seven + "  | " + eight + "   | " + nine);
-            
+
 
 
             string input_x1 = Console.ReadLine();
             Console.Clear();
-            if (input_x1 ==  one)
+            if (input_x1 == one)
             { one = "x"; };
             if (input_x1 == two)
             { two = "x"; };
@@ -60,28 +58,28 @@ namespace NoslDar
             Console.WriteLine(four + "  | " + five + "   | " + six);
             Console.WriteLine("  --------------");
             Console.WriteLine(seven + "  | " + eight + "   | " + nine);
-            
-           string input_01 = Console.ReadLine();
+
+            string input_o1 = Console.ReadLine();
             Console.Clear();
 
-            if (input_01 == one)
-            { one = "0"; };
-            if (input_01 == two)
-            { two = "0"; };
-            if (input_01 == three)
-            { three = "0"; };
-            if (input_01 == four)
-            { four = "0"; };
-            if (input_01 == five)
-            { five = "0"; };
-            if (input_01 == six)
-            { six = "0"; };
-            if (input_01 == seven)
-            { seven = "0"; };
-            if (input_01 == eight)
-            { eight = "0"; };
-            if (input_01 == nine)
-            { nine = "0"; };
+            if (input_o1 == one)
+            { one = "o"; };
+            if (input_o1 == two)
+            { two = "o"; };
+            if (input_o1 == three)
+            { three = "o"; };
+            if (input_o1 == four)
+            { four = "o"; };
+            if (input_o1 == five)
+            { five = "o"; };
+            if (input_o1 == six)
+            { six = "o"; };
+            if (input_o1 == seven)
+            { seven = "o"; };
+            if (input_o1 == eight)
+            { eight = "o"; };
+            if (input_o1 == nine)
+            { nine = "o"; };
 
             Console.WriteLine(one + "  | " + two + "   | " + three);
             Console.WriteLine("  --------------");
@@ -128,27 +126,27 @@ namespace NoslDar
             //Ja iestājas uzvara, iet ārā no cikla un attēlo, ka beigas.
             // vajag vismaz vienu unit testu. Piem., lietotājs ievada, kaut ko, kas nav 1-9. 
 
-            string input_02 = Console.ReadLine();
+            string input_o2 = Console.ReadLine();
             Console.Clear();
 
-            if (input_02 == one)
-            { one = "0"; };
-            if (input_02 == two)
-            { two = "0"; };
-            if (input_02 == three)
-            { three = "0"; };
-            if (input_02 == four)
-            { four = "0"; };
-            if (input_02 == five)
-            { five = "0"; };
-            if (input_02 == six)
-            { six = "0"; };
-            if (input_02 == seven)
-            { seven = "0"; };
-            if (input_02 == eight)
-            { eight = "0"; };
-            if (input_02 == nine)
-            { nine = "0"; };
+            if (input_o2 == one)
+            { one = "o"; };
+            if (input_o2 == two)
+            { two = "o"; };
+            if (input_o2 == three)
+            { three = "o"; };
+            if (input_o2 == four)
+            { four = "o"; };
+            if (input_o2 == five)
+            { five = "o"; };
+            if (input_o2 == six)
+            { six = "o"; };
+            if (input_o2 == seven)
+            { seven = "o"; };
+            if (input_o2 == eight)
+            { eight = "o"; };
+            if (input_o2 == nine)
+            { nine = "o"; };
 
 
 
@@ -183,12 +181,185 @@ namespace NoslDar
             { nine = "x"; };
 
 
+            if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x")
+                || (one == "x" && four == "x" && seven == "x") || (two == "x" && five == "x" && eight == "x") || (three == "x" && six == "x" && nine == "x")
+                || (one == "x" && five == "x" && nine == "x") || (three == "x" && five == "x" && seven == "x"))
+            { Console.WriteLine("x = winner! :) "); };
 
-            if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x"))
-                //vēl vertikālie gadījumi un pa diagonāli
-            { Console.WriteLine("x = winner! "); };
-                
-  
+            if ((one == "o" && two == "o" && three == "o") || (four == "o" && five == "o" && six == "o") || (seven == "o" && eight == "o" && nine == "o")
+                || (one == "o" && four == "o" && seven == "o") || (two == "o" && five == "o" && eight == "o") || (three == "o" && six == "o" && nine == "o")
+                || (one == "o" && five == "o" && nine == "o") || (three == "o" && five == "o" && seven == "o"))
+            { Console.WriteLine("o = winner! :) "); };
+
+
+            Console.WriteLine(one + "  | " + two + "   | " + three);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(four + "  | " + five + "   | " + six);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
+
+
+            string input_o3 = Console.ReadLine();
+            Console.Clear();
+
+            if (input_o3 == one)
+            { one = "o"; };
+            if (input_o3 == two)
+            { two = "o"; };
+            if (input_o3 == three)
+            { three = "o"; };
+            if (input_o3 == four)
+            { four = "o"; };
+            if (input_o3 == five)
+            { five = "o"; };
+            if (input_o3 == six)
+            { six = "o"; };
+            if (input_o3 == seven)
+            { seven = "o"; };
+            if (input_o3 == eight)
+            { eight = "o"; };
+            if (input_o3 == nine)
+            { nine = "o"; };
+
+            if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x")
+                            || (one == "x" && four == "x" && seven == "x") || (two == "x" && five == "x" && eight == "x") || (three == "x" && six == "x" && nine == "x")
+                            || (one == "x" && five == "x" && nine == "x") || (three == "x" && five == "x" && seven == "x"))
+            { Console.WriteLine("x = winner! :) "); };
+
+            if ((one == "o" && two == "o" && three == "o") || (four == "o" && five == "o" && six == "o") || (seven == "o" && eight == "o" && nine == "o")
+                || (one == "o" && four == "o" && seven == "o") || (two == "o" && five == "o" && eight == "o") || (three == "o" && six == "o" && nine == "o")
+                || (one == "o" && five == "o" && nine == "o") || (three == "o" && five == "o" && seven == "o"))
+            { Console.WriteLine("o = winner! :) "); };
+
+
+            Console.WriteLine(one + "  | " + two + "   | " + three);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(four + "  | " + five + "   | " + six);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
+
+
+            string input_x4 = Console.ReadLine();
+            Console.Clear();
+
+            if (input_x4 == one)
+            { one = "x"; };
+            if (input_x4 == two)
+            { two = "x"; };
+            if (input_x4 == three)
+            { three = "x"; };
+            if (input_x4 == four)
+            { four = "x"; };
+            if (input_x4 == five)
+            { five = "x"; };
+            if (input_x4 == six)
+            { six = "x"; };
+            if (input_x4 == seven)
+            { seven = "x"; };
+            if (input_x4 == eight)
+            { eight = "x"; };
+            if (input_x4 == nine)
+            { nine = "x"; };
+
+            if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x")
+                            || (one == "x" && four == "x" && seven == "x") || (two == "x" && five == "x" && eight == "x") || (three == "x" && six == "x" && nine == "x")
+                            || (one == "x" && five == "x" && nine == "x") || (three == "x" && five == "x" && seven == "x"))
+            { Console.WriteLine("x = winner! :) "); };
+
+            if ((one == "o" && two == "o" && three == "o") || (four == "o" && five == "o" && six == "o") || (seven == "o" && eight == "o" && nine == "o")
+                || (one == "o" && four == "o" && seven == "o") || (two == "o" && five == "o" && eight == "o") || (three == "o" && six == "o" && nine == "o")
+                || (one == "o" && five == "o" && nine == "o") || (three == "o" && five == "o" && seven == "o"))
+            { Console.WriteLine("o = winner! :) "); };
+
+
+            Console.WriteLine(one + "  | " + two + "   | " + three);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(four + "  | " + five + "   | " + six);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
+
+
+
+
+            string input_o4 = Console.ReadLine();
+            Console.Clear();
+
+            if (input_o4 == one)
+            { one = "o"; };
+            if (input_o4 == two)
+            { two = "o"; };
+            if (input_o4 == three)
+            { three = "o"; };
+            if (input_o4 == four)
+            { four = "o"; };
+            if (input_o4 == five)
+            { five = "o"; };
+            if (input_o4 == six)
+            { six = "o"; };
+            if (input_o4 == seven)
+            { seven = "o"; };
+            if (input_o4 == eight)
+            { eight = "o"; };
+            if (input_o4 == nine)
+            { nine = "o"; };
+
+
+            if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x")
+                            || (one == "x" && four == "x" && seven == "x") || (two == "x" && five == "x" && eight == "x") || (three == "x" && six == "x" && nine == "x")
+                            || (one == "x" && five == "x" && nine == "x") || (three == "x" && five == "x" && seven == "x"))
+            { Console.WriteLine("x = winner! :) "); };
+
+            if ((one == "o" && two == "o" && three == "o") || (four == "o" && five == "o" && six == "o") || (seven == "o" && eight == "o" && nine == "o")
+                || (one == "o" && four == "o" && seven == "o") || (two == "o" && five == "o" && eight == "o") || (three == "o" && six == "o" && nine == "o")
+                || (one == "o" && five == "o" && nine == "o") || (three == "o" && five == "o" && seven == "o"))
+            { Console.WriteLine("o = winner! :) "); };
+
+
+            Console.WriteLine(one + "  | " + two + "   | " + three);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(four + "  | " + five + "   | " + six);
+            Console.WriteLine("  --------------");
+            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
+
+            string input_x5 = Console.ReadLine();
+            Console.Clear();
+
+            if (input_x5 == one)
+            { one = "x"; };
+            if (input_x5 == two)
+            { two = "x"; };
+            if (input_x5 == three)
+            { three = "x"; };
+            if (input_x5 == four)
+            { four = "x"; };
+            if (input_x5 == five)
+            { five = "x"; };
+            if (input_x5 == six)
+            { six = "x"; };
+            if (input_x5 == seven)
+            { seven = "x"; };
+            if (input_x5 == eight)
+            { eight = "x"; };
+            if (input_x5 == nine)
+            { nine = "x"; };
+
+
+            if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x")
+                            || (one == "x" && four == "x" && seven == "x") || (two == "x" && five == "x" && eight == "x") || (three == "x" && six == "x" && nine == "x")
+                            || (one == "x" && five == "x" && nine == "x") || (three == "x" && five == "x" && seven == "x"))
+            { Console.WriteLine("x = winner! :) "); };
+
+            if ((one == "o" && two == "o" && three == "o") || (four == "o" && five == "o" && six == "o") || (seven == "o" && eight == "o" && nine == "o")
+                || (one == "o" && four == "o" && seven == "o") || (two == "o" && five == "o" && eight == "o") || (three == "o" && six == "o" && nine == "o")
+                || (one == "o" && five == "o" && nine == "o") || (three == "o" && five == "o" && seven == "o"))
+            { Console.WriteLine("o = winner! :) "); };
+
+            Console.WriteLine("" +
+                "Thank you for the game, it is tie! :) " +
+                "To play again, press 's' ");
+            //visa spēle ir kā cikls. Spēles beigās būtu jāvar nokļūt uz sākumu, lai spēlētu vēlreiz.
+
+
 
 
 
