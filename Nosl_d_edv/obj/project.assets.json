@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Lietotajs\\.nuget\\packages\\": {}
+    "C:\\Users\\Dina Kristiņa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_edv\\Nosl_d_edv\\Nosl_d_edv.csproj",
+      "projectUniqueName": "C:\\Users\\Dina Kristiņa\\Desktop\\C#\\2test\\Nosl_d_edv\\Nosl_d_edv.csproj",
       "projectName": "Nosl_d_edv",
-      "projectPath": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_edv\\Nosl_d_edv\\Nosl_d_edv.csproj",
-      "packagesPath": "C:\\Users\\Lietotajs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_edv\\Nosl_d_edv\\obj\\",
+      "projectPath": "C:\\Users\\Dina Kristiņa\\Desktop\\C#\\2test\\Nosl_d_edv\\Nosl_d_edv.csproj",
+      "packagesPath": "C:\\Users\\Dina Kristiņa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dina Kristiņa\\Desktop\\C#\\2test\\Nosl_d_edv\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lietotajs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dina Kristiņa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
