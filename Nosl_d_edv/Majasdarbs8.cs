@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Nosl_d_edv
 {
-    class Majasdarbs8
+    public class Majasdarbs8
     {
+
     }
 }
