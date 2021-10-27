@@ -40,3 +40,17 @@ C:\Users\HP\Source\Repos\krustnullites4\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_
 C:\Users\HP\Source\Repos\krustnullites4\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
 C:\Users\HP\Source\Repos\krustnullites4\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
 C:\Users\HP\Source\Repos\krustnullites4\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.genruntimeconfig.cache
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.exe
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.deps.json
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.json
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.dev.json
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.dll
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.pdb
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.AssemblyReference.cache
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfoInputs.cache
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfo.cs
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.CoreCompileInputs.cache
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
+C:\Users\VMIX_ITX\source\repos\krustnullites\jauna mapīte\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.genruntimeconfig.cache
