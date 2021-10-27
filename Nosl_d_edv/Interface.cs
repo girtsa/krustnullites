@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Nosl_d_edv
 {
-    class Interface
+    public class Interface
     {
-        private static IWrite consoleWrite;
+        private static IWriter consoleWriter;
 
-        public static void Main(string[] args)
+        public static void First(string[] args)
         {
             Value O = Value.O;
 
@@ -25,6 +25,16 @@ namespace Nosl_d_edv
             };
 
             Console.WriteLine($"Hello my player is {Symbol.O} and I am { Symbol.Value}");
+            Console.WriteLine(value: $"Hello my player is {Symbol.O} and I am {Symbol.Value}");
+
+            //
+           // iWriter consolewriter = new consoleWriter();
+           // FileWriter fileWriter1 = new FileWriter();
+           // iWriter fileWriter = (iWriter)fileWriter1;
+
+
+
+
 
 
         }

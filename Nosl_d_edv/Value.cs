@@ -18,5 +18,6 @@ namespace Nosl_d_edv
         public string Player { get; set; }
 
         public Value Value { get; set; }
+        public object O { get; internal set; }
     }
 }
