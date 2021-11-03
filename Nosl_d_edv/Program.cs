@@ -7,119 +7,23 @@ namespace NoslDar
     public class Program
 
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
-
-            string one = "1";
-            string two = "2";
-            string three = "3";
-            string four = "4";
-            string five = "5";
-            string six = "6";
-            string seven = "7";
-            string eight = "8";
-            string nine = "9";
-           
-
-            Console.WriteLine("Noteikumi u.c.");
-            Console.WriteLine(one + "  | " + two + "   | " + three);
-            Console.WriteLine("  --------------");
-            Console.WriteLine(four + "  | " + five + "   | " + six);
-            Console.WriteLine("  --------------");
-            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
+            string[] gameField = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 
-
-            string input_x1 = Console.ReadLine();
-            Console.Clear();
-            if (input_x1 == one)
-            { one = "x"; };
-            if (input_x1 == two)
-            { two = "x"; };
-            if (input_x1 == three)
-            { three = "x"; };
-            if (input_x1 == four)
-            { four = "x"; };
-            if (input_x1 == five)
-            { five = "x"; };
-            if (input_x1 == six)
-            { six = "x"; };
-            if (input_x1 == seven)
-            { seven = "x"; };
-            if (input_x1 == eight)
-            { eight = "x"; };
-            if (input_x1 == nine)
-            { nine = "x"; };
+          
 
 
+            Board.PrintGameBoard(gameField);
+            Board.MakeAMoveX(gameField);
+            Board.PrintGameBoard(gameField);
 
-            Console.WriteLine(one + "  | " + two + "   | " + three);
-            Console.WriteLine("  --------------");
-            Console.WriteLine(four + "  | " + five + "   | " + six);
-            Console.WriteLine("  --------------");
-            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
+            Board.MakeAMoveO(gameField);
+            Board.PrintGameBoard(gameField);
+            
 
-            string input_o1 = Console.ReadLine();
-            Console.Clear();
-
-            if (input_o1 == one)
-            { one = "o"; };
-            if (input_o1 == two)
-            { two = "o"; };
-            if (input_o1 == three)
-            { three = "o"; };
-            if (input_o1 == four)
-            { four = "o"; };
-            if (input_o1 == five)
-            { five = "o"; };
-            if (input_o1 == six)
-            { six = "o"; };
-            if (input_o1 == seven)
-            { seven = "o"; };
-            if (input_o1 == eight)
-            { eight = "o"; };
-            if (input_o1 == nine)
-            { nine = "o"; };
-
-            Console.WriteLine(one + "  | " + two + "   | " + three);
-            Console.WriteLine("  --------------");
-            Console.WriteLine(four + "  | " + five + "   | " + six);
-            Console.WriteLine("  --------------");
-            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
-
-
-            //string[] Laukums = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-            //while 
-            // if ()
-
-
-            string input_x2 = Console.ReadLine();
-            Console.Clear();
-
-            if (input_x2 == one)
-            { one = "x"; };
-            if (input_x2 == two)
-            { two = "x"; };
-            if (input_x2 == three)
-            { three = "x"; };
-            if (input_x2 == four)
-            { four = "x"; };
-            if (input_x2 == five)
-            { five = "x"; };
-            if (input_x2 == six)
-            { six = "x"; };
-            if (input_x2 == seven)
-            { seven = "x"; };
-            if (input_x2 == eight)
-            { eight = "x"; };
-            if (input_x2 == nine)
-            { nine = "x"; };
-
-            Console.WriteLine(one + "  | " + two + "   | " + three);
-            Console.WriteLine("  --------------");
-            Console.WriteLine(four + "  | " + five + "   | " + six);
-            Console.WriteLine("  --------------");
-            Console.WriteLine(seven + "  | " + eight + "   | " + nine);
+            
 
 
             // while   pēc katra gājiena jau pārbauda vai beidzas spēle  (vai ir 3 rindā) 

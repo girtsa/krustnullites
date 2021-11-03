@@ -68,3 +68,10 @@ C:\Users\HP\Source\Repos\krustnullites9\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_
 C:\Users\HP\Source\Repos\krustnullites9\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
 C:\Users\HP\Source\Repos\krustnullites9\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
 C:\Users\HP\Source\Repos\krustnullites9\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.genruntimeconfig.cache
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.AssemblyReference.cache
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfoInputs.cache
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.AssemblyInfo.cs
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.CoreCompileInputs.cache
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
