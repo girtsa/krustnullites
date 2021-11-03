@@ -75,3 +75,10 @@ C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netco
 C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.csproj.CoreCompileInputs.cache
 C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.dll
 C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.pdb
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.exe
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.deps.json
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.json
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.runtimeconfig.dev.json
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.dll
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\bin\Debug\netcoreapp3.1\Nosl_d_edv.pdb
+C:\Users\Lietotajs\Desktop\Edvarts_GitHub\galaD_v3nov\Nosl_d_edv\obj\Debug\netcoreapp3.1\Nosl_d_edv.genruntimeconfig.cache
