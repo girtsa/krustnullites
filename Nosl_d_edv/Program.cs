@@ -6,25 +6,34 @@ namespace NoslDar
 {
     public class Program
 
+
     {
-       public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string[] gameField = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 
             
-            
+
             for (int i = 0; i < 9; i++)
             {
                 Board.PrintGameBoard(gameField);
-                if (i %2 ==1)
+                Board.CheckIfGameIsWin(gameField); //vēl jāizdomā, kā panākt, lai šo nerāda deviņas reizes!
+
+                if (i % 2 == 0)
                 {
-                Board.MakeAMoveX(gameField);
+                    
+                    Board.MakeAMoveX(gameField);
+                    
+
                 }
                 else
                 {
-                Board.MakeAMoveO(gameField);
+                    Board.MakeAMoveO(gameField);
+                    
                 }
+                
+                
                 Console.Clear();
 
             }
