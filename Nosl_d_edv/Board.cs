@@ -99,6 +99,7 @@ namespace NoslDar
                  )
 
                     Console.WriteLine("Congratulations! You are the winner!");
+                break;
             }
         }
     }
