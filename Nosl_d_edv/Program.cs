@@ -13,66 +13,66 @@ namespace NoslDar
             string[] gameField = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 
-            
 
             for (int i = 0; i < 9; i++)
             {
                 Board.PrintGameBoard(gameField);
-                Board.CheckIfGameIsWin(gameField); //vēl jāizdomā, kā panākt, lai šo nerāda deviņas reizes!
+                Board.CheckIfGameIsWin(gameField);
+                Board.CheckIfTheGameIsTie(gameField);
 
                 if (i % 2 == 0)
                 {
-                    
+
                     Board.MakeAMoveX(gameField);
-                    
+
 
                 }
                 else
                 {
                     Board.MakeAMoveO(gameField);
-                    
+
                 }
-                
-                
+
+
                 Console.Clear();
 
             }
-
-
-
-
-            // while   pēc katra gājiena jau pārbauda vai beidzas spēle  (vai ir 3 rindā) 
-            //Ja iestājas uzvara, iet ārā no cikla un attēlo, ka beigas.
-            // vajag vismaz vienu unit testu. Piem., lietotājs ievada, kaut ko, kas nav 1-9. 
-
-
-
-            /*
-                        if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x")
-                            || (one == "x" && four == "x" && seven == "x") || (two == "x" && five == "x" && eight == "x") || (three == "x" && six == "x" && nine == "x")
-                            || (one == "x" && five == "x" && nine == "x") || (three == "x" && five == "x" && seven == "x"))
-                        { Console.WriteLine("x = winner! :) "); };
-
-                        if ((one == "o" && two == "o" && three == "o") || (four == "o" && five == "o" && six == "o") || (seven == "o" && eight == "o" && nine == "o")
-                            || (one == "o" && four == "o" && seven == "o") || (two == "o" && five == "o" && eight == "o") || (three == "o" && six == "o" && nine == "o")
-                            || (one == "o" && five == "o" && nine == "o") || (three == "o" && five == "o" && seven == "o"))
-                        { Console.WriteLine("o = winner! :) "); };
-
-
-                        Console.WriteLine("" +
-                            "Thank you for the game, it is tie! :) " +
-                            "To play again, press 's' ");
-                        //visa spēle ir kā cikls. Spēles beigās būtu jāvar nokļūt uz sākumu, lai spēlētu vēlreiz.
-
-            */
-
-
-
-
-            //Edvarts testē
         }
+
     }
 }
+
+
+// while   pēc katra gājiena jau pārbauda vai beidzas spēle  (vai ir 3 rindā) 
+//Ja iestājas uzvara, iet ārā no cikla un attēlo, ka beigas.
+// vajag vismaz vienu unit testu. Piem., lietotājs ievada, kaut ko, kas nav 1-9. 
+
+
+
+/*
+            if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x")
+                || (one == "x" && four == "x" && seven == "x") || (two == "x" && five == "x" && eight == "x") || (three == "x" && six == "x" && nine == "x")
+                || (one == "x" && five == "x" && nine == "x") || (three == "x" && five == "x" && seven == "x"))
+            { Console.WriteLine("x = winner! :) "); };
+
+            if ((one == "o" && two == "o" && three == "o") || (four == "o" && five == "o" && six == "o") || (seven == "o" && eight == "o" && nine == "o")
+                || (one == "o" && four == "o" && seven == "o") || (two == "o" && five == "o" && eight == "o") || (three == "o" && six == "o" && nine == "o")
+                || (one == "o" && five == "o" && nine == "o") || (three == "o" && five == "o" && seven == "o"))
+            { Console.WriteLine("o = winner! :) "); };
+
+
+            Console.WriteLine("" +
+                "Thank you for the game, it is tie! :) " +
+                "To play again, press 's' ");
+            //visa spēle ir kā cikls. Spēles beigās būtu jāvar nokļūt uz sākumu, lai spēlētu vēlreiz.
+
+*/
+
+
+
+
+//Edvarts testē
+
 
 
 //pēc noklusējuma spēli pirmais sāk X. 

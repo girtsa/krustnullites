@@ -46,7 +46,7 @@ namespace NoslDar
             string input_x1 = Console.ReadLine();
             int index = int.Parse(input_x1) - 1;
             gameField[index] = "o";
-            
+
         }
 
 
@@ -97,11 +97,32 @@ namespace NoslDar
 
                       )
                  )
-
                     Console.WriteLine("Congratulations! You are the winner!");
                 break;
+
             }
         }
+
+
+        public static void CheckIfTheGameIsTie(string[] gameField)
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                if
+                    (
+                        gameField[0] != "1" && gameField[1] != "2" && gameField[2] != "3"
+                     && gameField[3] != "4" && gameField[4] != "5" && gameField[5] != "6"
+                     && gameField[6] != "7" && gameField[7] != "8" && gameField[8] != "9"
+                    )
+                    Console.WriteLine("It is tie!");
+
+            }
+        }
+
+        //        public override string ToString()
+        //        {
+        //            return "Thanks for the game";
+        //string game = Board.ToString()
     }
 }
 
@@ -110,9 +131,6 @@ namespace NoslDar
 
 
 
-//
-//trīs metodes
-// viena metode
 
 // board klasi uztaisīt ne-statisku. Laukuma printēšanu uztaisīt, pārrakstot uz toString metodi (sk. šodienas lekciju). 
 // lai laukuma printēšana notiktu, kad ir toString metode...  Bet ir trikcky, jo ir vairākas līnijas. Artis cer, ka mēs tiksim galā..
