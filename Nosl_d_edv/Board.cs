@@ -40,16 +40,16 @@ namespace NoslDar
             public static void MakeAMoveX(string[] gameField)
             {
                 Console.WriteLine("Player X, please, enter a number");
-                int userinput = Board.Checks.GetNumber();
-                int index = userinput - 1;
+                int userNumberInput = Board.Checks.GetNumber();
+                int index = userNumberInput - 1;
                 gameField[index] = "x";
             }
 
             public static void MakeAMoveO(string[] gameField)
             {
                 Console.WriteLine("Player O, please, enter a number");
-                int userinput = Board.Checks.GetNumber();
-                int index = userinput - 1;
+                int userNumberInput = Board.Checks.GetNumber();
+                int index = userNumberInput - 1;
                 gameField[index] = "o";
 
             }
@@ -62,7 +62,9 @@ namespace NoslDar
             {
                 for (int i = 0; i < 9; i++)
                 {
-                    if (
+                    if
+
+                        (
 
                           (  //horizontāli
                               (gameField[0] == gameField[1] && gameField[1] == gameField[2])
@@ -102,8 +104,25 @@ namespace NoslDar
 
                           )
                      )
+                    {
                         Console.WriteLine("Congratulations! You are the winner!");
-                    break;
+
+                        break;
+                    }
+
+                    else
+                    {
+
+                        (
+                            gameField[0] != "1" && gameField[1] != "2" && gameField[2] != "3"
+                         && gameField[3] != "4" && gameField[4] != "5" && gameField[5] != "6"
+                         && gameField[6] != "7" && gameField[7] != "8" && gameField[8] != "9"
+                        )
+
+                        Console.WriteLine("It is tie!");   //jāpamēģina šo ielikt pie iepriekšējās metodes zem else if!!
+                    }
+
+
 
                 }
             }
@@ -113,13 +132,7 @@ namespace NoslDar
             {
                 for (int i = 0; i < 9; i++)
                 {
-                    if
-                        (
-                            gameField[0] != "1" && gameField[1] != "2" && gameField[2] != "3"
-                         && gameField[3] != "4" && gameField[4] != "5" && gameField[5] != "6"
-                         && gameField[6] != "7" && gameField[7] != "8" && gameField[8] != "9"
-                        )
-                        Console.WriteLine("It is tie!");   //jāpamēģina šo ielikt pie iepriekšējās metodes zem else if!!
+                    
 
                 }
             }
@@ -130,7 +143,7 @@ namespace NoslDar
 
             private static int GetNumber()
             {
-                
+
 
                 string userNumberInput = Console.ReadLine();
                 int userNumber;
@@ -139,7 +152,7 @@ namespace NoslDar
                 {
                     userNumber = int.Parse(userNumberInput);
 
-                    if (userNumber > 9 && userNumber < 1)
+                    if (userNumber > 9 || userNumber < 1)
                     {
                         throw new NumberLargerThanNineException("Aplikācija atbalsta skaitļus tikai no 1 līdz 9.");
                     }
@@ -149,6 +162,13 @@ namespace NoslDar
                     Console.WriteLine($"Hey tas nebija skaitlis: {userNumberInput}");
                     userNumber = GetNumber();
                 }
+
+                catch (NumberLargerThanNineException exception)
+                {
+                    Console.WriteLine(exception.Message);
+                    userNumber = GetNumber();
+                }
+
 
                 return userNumber;
             }
