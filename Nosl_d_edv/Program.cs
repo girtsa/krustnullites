@@ -17,19 +17,19 @@ namespace NoslDar
             for (int i = 0; i < 9; i++)
             {
                 Board.PrintGameBoard(gameField);
-                Board.CheckIfGameIsWin(gameField);
-                Board.CheckIfTheGameIsTie(gameField);
+                Board.Checks.CheckIfGameIsWin(gameField);
+                Board.Checks.CheckIfTheGameIsTie(gameField);
 
                 if (i % 2 == 0)
                 {
 
-                    Board.MakeAMoveX(gameField);
+                    Board.Checks.MakeAMoveX(gameField);
 
 
                 }
                 else
                 {
-                    Board.MakeAMoveO(gameField);
+                    Board.Checks.MakeAMoveO(gameField);
 
                 }
 
