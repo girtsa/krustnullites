@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_9nov_v2\\Nosl_d_edv\\Nosl_d_edv.csproj": {}
+    "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_10nov\\Nosl_d_edv\\Nosl_d_edv.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_9nov_v2\\Nosl_d_edv\\Nosl_d_edv.csproj": {
+    "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_10nov\\Nosl_d_edv\\Nosl_d_edv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_9nov_v2\\Nosl_d_edv\\Nosl_d_edv.csproj",
+        "projectUniqueName": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_10nov\\Nosl_d_edv\\Nosl_d_edv.csproj",
         "projectName": "Nosl_d_edv",
-        "projectPath": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_9nov_v2\\Nosl_d_edv\\Nosl_d_edv.csproj",
+        "projectPath": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_10nov\\Nosl_d_edv\\Nosl_d_edv.csproj",
         "packagesPath": "C:\\Users\\Lietotajs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_9nov_v2\\Nosl_d_edv\\obj\\",
+        "outputPath": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\Nosl_d_10nov\\Nosl_d_edv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lietotajs\\AppData\\Roaming\\NuGet\\NuGet.Config",

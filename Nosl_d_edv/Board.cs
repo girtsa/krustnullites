@@ -39,15 +39,17 @@ namespace NoslDar
 
             public static void MakeAMoveX(string[] gameField)
             {
-                string input_x1 = Console.ReadLine();
-                int index = int.Parse(input_x1) - 1;
+                Console.WriteLine("Player X, please, enter a number");
+                int userinput = Board.Checks.GetNumber();
+                int index = userinput - 1;
                 gameField[index] = "x";
             }
 
             public static void MakeAMoveO(string[] gameField)
             {
-                string input_x1 = Console.ReadLine();
-                int index = int.Parse(input_x1) - 1;
+                Console.WriteLine("Player O, please, enter a number");
+                int userinput = Board.Checks.GetNumber();
+                int index = userinput - 1;
                 gameField[index] = "o";
 
             }
@@ -117,10 +119,46 @@ namespace NoslDar
                          && gameField[3] != "4" && gameField[4] != "5" && gameField[5] != "6"
                          && gameField[6] != "7" && gameField[7] != "8" && gameField[8] != "9"
                         )
-                        Console.WriteLine("It is tie!");
+                        Console.WriteLine("It is tie!");   //jāpamēģina šo ielikt pie iepriekšējās metodes zem else if!!
 
                 }
             }
+
+
+
+
+
+            private static int GetNumber()
+            {
+                
+
+                string userNumberInput = Console.ReadLine();
+                int userNumber;
+
+                try
+                {
+                    userNumber = int.Parse(userNumberInput);
+
+                    if (userNumber > 9 && userNumber < 1)
+                    {
+                        throw new NumberLargerThanNineException("Aplikācija atbalsta skaitļus tikai no 1 līdz 9.");
+                    }
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine($"Hey tas nebija skaitlis: {userNumberInput}");
+                    userNumber = GetNumber();
+                }
+
+                return userNumber;
+            }
+
+
+
+
+
+
+
 
             //        public override string ToString()
             //        {
