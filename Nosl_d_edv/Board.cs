@@ -34,110 +34,25 @@ namespace NoslDar
 
         }
 
-        public class Checks : Board
+        public class Moves : Board
         {
 
             public static void MakeAMoveX(string[] gameField)
             {
-                Console.WriteLine("Player X, please, enter a number");
-                int userNumberInput = Board.Checks.GetNumber();
+                Console.WriteLine("Player X, please, choose and enter one of remaining numbers!");
+                int userNumberInput = Board.Moves.GetNumber();
                 int index = userNumberInput - 1;
                 gameField[index] = "x";
             }
 
             public static void MakeAMoveO(string[] gameField)
             {
-                Console.WriteLine("Player O, please, enter a number");
-                int userNumberInput = Board.Checks.GetNumber();
+                Console.WriteLine("Player O, please, choose and enter one of remaining numbers!");
+                int userNumberInput = Board.Moves.GetNumber();
                 int index = userNumberInput - 1;
                 gameField[index] = "o";
 
             }
-
-
-
-
-            public static void CheckIfGameIsWin(string[] gameField)
-
-            {
-                for (int i = 0; i < 9; i++)
-                {
-                    if
-
-                        (
-
-                          (  //horizontāli
-                              (gameField[0] == gameField[1] && gameField[1] == gameField[2])
-
-                              ||
-
-                              (gameField[3] == gameField[4] && gameField[4] == gameField[5])
-
-                              ||
-
-                              (gameField[6] == gameField[7] && gameField[7] == gameField[8])
-
-                          )
-
-                         ||
-
-                         ( // vertikāli
-                             (gameField[0] == gameField[3] && gameField[3] == gameField[6])
-
-                              ||
-
-                              (gameField[1] == gameField[4] && gameField[4] == gameField[7])
-
-                              ||
-
-                              (gameField[2] == gameField[5] && gameField[5] == gameField[8])
-
-                          )
-
-                          ||
-                          ( // diagonāli
-                              (gameField[0] == gameField[4] && gameField[4] == gameField[8])
-
-                              ||
-
-                              (gameField[2] == gameField[4] && gameField[4] == gameField[6])
-
-                          )
-                     )
-                    {
-                        Console.WriteLine("Congratulations! You are the winner!");
-
-                        break;
-                    }
-
-                    else
-                    {
-
-                        (
-                            gameField[0] != "1" && gameField[1] != "2" && gameField[2] != "3"
-                         && gameField[3] != "4" && gameField[4] != "5" && gameField[5] != "6"
-                         && gameField[6] != "7" && gameField[7] != "8" && gameField[8] != "9"
-                        )
-
-                        Console.WriteLine("It is tie!");   //jāpamēģina šo ielikt pie iepriekšējās metodes zem else if!!
-                    }
-
-
-
-                }
-            }
-
-
-            public static void CheckIfTheGameIsTie(string[] gameField)
-            {
-                for (int i = 0; i < 9; i++)
-                {
-                    
-
-                }
-            }
-
-
 
 
 
@@ -156,12 +71,16 @@ namespace NoslDar
                     {
                         throw new NumberLargerThanNineException("Aplikācija atbalsta skaitļus tikai no 1 līdz 9.");
                     }
+
+                                     
+
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine($"Hey tas nebija skaitlis: {userNumberInput}");
+                    Console.WriteLine($"You entered: { userNumberInput} But only numbers (1-9 and if not already used) can be entered. Try again! :)");
                     userNumber = GetNumber();
                 }
+
 
                 catch (NumberLargerThanNineException exception)
                 {
