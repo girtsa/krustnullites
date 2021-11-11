@@ -7,7 +7,7 @@ namespace NoslDar
     public class Check_Win_Horizontal
 
     {
-        public static void CheckIfGameIsWinHorizontally(string[] gameField)
+        public static bool CheckIfGameIsWinHorizontally(string[] gameField)
 
         {
             for (int i = 0; i < 9; i++)
@@ -26,11 +26,12 @@ namespace NoslDar
 
                 {
                     Console.WriteLine("Congratulations! You are the winner!");
-
-                    break;
+                    return true;
                 }
 
             }
+            return false;
         }
+
     }
 }

@@ -14,14 +14,34 @@ namespace NoslDar
 
 
 
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Board.PrintGameBoard(gameField);
-                Check_Win_Horizontal.CheckIfGameIsWinHorizontally(gameField);
-                Check_Win_Vertical.CheckIfGameIsWinVertically(gameField);
-                Check_Win_Diagonal.CheckIfGameIsWinDiagonally(gameField);
-                Check_Tie.CheckIfGameIsTie(gameField);
-                
+                bool isHorizontalWictory=Check_Win_Horizontal.CheckIfGameIsWinHorizontally(gameField);
+                if (isHorizontalWictory)
+                {
+                    break;
+                }
+                bool isVerticalWictory=Check_Win_Vertical.CheckIfGameIsWinVertically(gameField);
+                if (isVerticalWictory)
+                {
+                    break;
+                }
+                bool isDiagonalWictory=Check_Win_Diagonal.CheckIfGameIsWinDiagonally(gameField);
+                if (isDiagonalWictory)
+                {
+                    break;
+                }
+                bool isTie=Check_Tie.CheckIfGameIsTie(gameField);
+                if (isTie)
+                {
+                    break;
+                }
+                if (i == 9)
+                {
+                    Console.WriteLine("It is tie!");
+                }
+
 
                 if (i % 2 == 0)
                 {
@@ -35,7 +55,6 @@ namespace NoslDar
                     Board.Moves.MakeAMoveO(gameField);
                     
                 }
-
 
                 Console.Clear();
 

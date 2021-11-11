@@ -8,7 +8,7 @@ namespace NoslDar
 
     {
 
-        public static void CheckIfGameIsTie(string[] gameField)
+        public static bool CheckIfGameIsTie(string[] gameField)
 
         {
             for (int i = 0; i < 9; i++)
@@ -23,10 +23,11 @@ namespace NoslDar
 
                 {
                     Console.WriteLine("It is tie!");   //jāpamēģina šo ielikt pie iepriekšējās metodes zem else if!!
-                    break;
+                    return true;
                 }
 
             }
+            return false;
         }
     }
 }

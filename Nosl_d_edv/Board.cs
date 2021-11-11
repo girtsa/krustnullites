@@ -14,7 +14,8 @@ namespace NoslDar
         public static void PrintGameBoard(string[] gameField)
         {
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
+
+            
             Console.WriteLine("                  ");
             Console.WriteLine("    TicTacToe     ");
             Console.WriteLine("                  ");
@@ -76,7 +77,7 @@ namespace NoslDar
                         throw new NumberLargerThanNineException("Aplikācija atbalsta skaitļus tikai no 1 līdz 9.");
                     }
 
-                                    
+
                 }
                 catch (FormatException)
                 {
@@ -94,16 +95,23 @@ namespace NoslDar
 
                 return userNumber;
             }
+            
+        }
+    }
+}
 
+
+
+                
 
 
             //        public override string ToString()
             //        {
             //            return "Thanks for the game";
             //string game = Board.ToString()
-        }
-    }
-}
+        
+    
+
 
 
 

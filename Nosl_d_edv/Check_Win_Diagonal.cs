@@ -8,7 +8,7 @@ namespace NoslDar
 
     {
 
-        public static void CheckIfGameIsWinDiagonally(string[] gameField)
+        public static bool CheckIfGameIsWinDiagonally(string[] gameField)
 
         {
             for (int i = 0; i < 9; i++)
@@ -26,12 +26,11 @@ namespace NoslDar
 
                 {
                     Console.WriteLine("Congratulations! You are the winner!");
-
-                    break;
+                    return true;
                 }
-
+                
             }
-
+            return false;
         }
 
     }
