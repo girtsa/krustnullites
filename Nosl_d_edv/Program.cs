@@ -32,11 +32,8 @@ namespace NoslDar
                 {
                     break;
                 }
-                bool isTie=Check_Tie.CheckIfGameIsTie(gameField);
-                if (isTie)
-                {
-                    break;
-                }
+                
+                              
                 if (i == 9)
                 {
                     Console.WriteLine("It is tie!");

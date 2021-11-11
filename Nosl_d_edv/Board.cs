@@ -15,7 +15,7 @@ namespace NoslDar
         {
 
 
-            
+
             Console.WriteLine("                  ");
             Console.WriteLine("    TicTacToe     ");
             Console.WriteLine("                  ");
@@ -46,17 +46,33 @@ namespace NoslDar
             public static void MakeAMoveX(string[] gameField)
             {
                 Console.WriteLine("Player X, please, choose and enter one of remaining numbers!");
+                               
                 int userNumberInput = Board.Moves.GetNumber();
                 int index = userNumberInput - 1;
-                gameField[index] = "x";
+                if (gameField[index] == "x" || gameField[index] == "o")
+                {
+                    Console.WriteLine("It is already used! Choose another field!");
+                    MakeAMoveX(gameField);
+                }
+                else
+                { gameField[index] = "x"; }
+
             }
 
             public static void MakeAMoveO(string[] gameField)
             {
                 Console.WriteLine("Player O, please, choose and enter one of remaining numbers!");
                 int userNumberInput = Board.Moves.GetNumber();
+
                 int index = userNumberInput - 1;
-                gameField[index] = "o";
+                if (gameField[index] == "x" || gameField[index] == "o")
+                {
+                    Console.WriteLine("It is already used! Choose another field!");
+                    MakeAMoveO(gameField);
+                }
+                else
+                { gameField[index] = "o"; }
+                
 
             }
 
@@ -78,6 +94,9 @@ namespace NoslDar
                     }
 
 
+
+
+
                 }
                 catch (FormatException)
                 {
@@ -95,22 +114,22 @@ namespace NoslDar
 
                 return userNumber;
             }
-            
+
         }
     }
 }
 
 
 
-                
 
 
-            //        public override string ToString()
-            //        {
-            //            return "Thanks for the game";
-            //string game = Board.ToString()
-        
-    
+
+//        public override string ToString()
+//        {
+//            return "Thanks for the game";
+//string game = Board.ToString()
+
+
 
 
 
