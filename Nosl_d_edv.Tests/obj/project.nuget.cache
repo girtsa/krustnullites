@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mwFz8veVYULC1IxJD5ox8lOMGNY0LYy7xVsV+tQW6ihoRzcHq5ifisEBDkx+QcYh9DA1aA1ZE9oDQ3f8bc6+UQ==",
+  "dgSpecHash": "8VLwFteURPKY3WJxA5/bPoK0y1Wvlw/11LnUjbkyCaRmMJyBIf1xSuB4L0xb4hds4QHihAJk5z0fgfeMrPLwPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lietotajs\\Desktop\\Edvarts GitHub\\v11nov\\Nosl_d_edv.Tests\\Nosl_d_edv.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Lietotajs\\Desktop\\Edvarts_GitHub\\galaD_16nov\\Nosl_d_edv.Tests\\Nosl_d_edv.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lietotajs\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Lietotajs\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

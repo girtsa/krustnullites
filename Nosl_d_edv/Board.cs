@@ -115,49 +115,32 @@ namespace NoslDar
                 return userNumber;
             }
 
+        
+            public string GetNumber(int number)
+            {
+                string text = "";
+
+                if ( number <= 9)
+                {
+                    text += "OK";
+                }
+
+                if (number >=10)
+                {
+                    text += "OutOfArray";
+                }
+
+                if (string.IsNullOrWhiteSpace(text))
+                {
+                    return number.ToString();
+                }
+
+                return text;
+            }
         }
     }
 }
 
-
-
-
-
-
-//        public override string ToString()
-//        {
-//            return "Thanks for the game";
-//string game = Board.ToString()
-
-
-
-
-
-
-
-// board klasi uztaisīt ne-statisku. Laukuma printēšanu uztaisīt, pārrakstot uz toString metodi (sk. šodienas lekciju). 
-// lai laukuma printēšana notiktu, kad ir toString metode...  Bet ir trikcky, jo ir vairākas līnijas. Artis cer, ka mēs tiksim galā..
-// var lietot new line character = /r = ENTER = new line simbols
-
-
-
-
-//if ((one == "x" && two == "x" && three == "x") || (four == "x" && five == "x" && six == "x") || (seven == "x" && eight == "x" && nine == "x")
-//    || (one == "x" && four == "x" && seven == "x") || (two == "x" && five == "x" && eight == "x") || (three == "x" && six == "x" && nine == "x")
-//    || (one == "x" && five == "x" && nine == "x") || (three == "x" && five == "x" && seven == "x"))
-//{ Console.WriteLine("x = winner! :) "); };
-
-//if ((one == "o" && two == "o" && three == "o") || (four == "o" && five == "o" && six == "o") || (seven == "o" && eight == "o" && nine == "o")
-//    || (one == "o" && four == "o" && seven == "o") || (two == "o" && five == "o" && eight == "o") || (three == "o" && six == "o" && nine == "o")
-//    || (one == "o" && five == "o" && nine == "o") || (three == "o" && five == "o" && seven == "o"))
-//{ Console.WriteLine("o = winner! :) "); };
-
-
-//Console.WriteLine("" +
-//    "Thank you for the game, it is tie! :) " +
-//    "To play again, press 's' ");
-////visa spēle ir kā cikls. Spēles beigās būtu jāvar nokļūt uz sākumu, lai spēlētu vēlreiz.
-// crtrl + k + c 
 
 
 
